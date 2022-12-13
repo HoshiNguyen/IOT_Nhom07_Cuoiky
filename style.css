@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto',sans-serif;
+    background: rgb(205, 225, 225);
+    background-size: cover;
+}
+.header {
+    background-color:rgb(205, 225, 225); 
+    text-align: center;
+}
+.header h1{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 200px;
+    color:rgb(5, 34, 65);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+.header h2{
+    text-align: left;
+    margin-left: 285px;
+    color: rgb(5, 34, 65);
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(5, 34, 65);
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: rgb(255, 239, 255);
+    color: rgb(5, 34, 65);
+}
+.column {
+	float: left;
+	padding-left: 10px;
+}
+.column.left {
+	width: 30%;
+	padding-right: 60px;
+}
+.column.left li{
+	padding-bottom: 20px;
+}
+.column.right {
+	width: 70%;
+	padding-left: 10px;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+@media screen and (max-width: 600px) {
+	.column.left, .column.right {
+		width: 100%;
+	}
+}
+.footer {
+	background-color: rgb(5, 34, 65);
+	padding: 0.1px;
+	text-align: right;
+	color: white;
+	margin-top: 80px;
+}
+.footer p {
+	margin-right: 10px;
+}
+.box {
+	float: left;
+	width: 80;
+	height: 50px;
+}
+.box img{
+	margin-left: 10px;
+	margin-top: 20px;
+	z-index: 99;
+	height: 100px;
+	width: 100px;
+}
+

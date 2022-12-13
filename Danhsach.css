@@ -1,0 +1,348 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+}
+.header {
+  margin-bottom: -30px;
+  margin-top: -25px;
+  text-align: center;
+  background: rgb(14, 39, 90);
+  width: 100%;
+}
+.header h1{
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.header h2{
+  padding-top: 15px;
+  padding-bottom: -50px;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.topnav {
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(223, 231, 245);
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(5, 34, 65);
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  color: rgb(5, 34, 65);
+  font-weight: bold;
+}
+.column{
+    display: flex;
+    align-items: center;
+    float: right;
+    position: absolute;
+    top: 26%;
+    left: 20%;
+}
+.p{
+    margin: 0;
+}
+.container{
+    flex-basis: 60%;
+    position: relative;
+    left: 35%;
+    top: 60%;
+    margin-top: 40px;
+}
+.solo{
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 170px;
+    margin: 6px 20px ;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card{
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    padding: 5px 50px;
+    box-sizing: border-box;
+/*    margin: 0px 30px;*/
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card-1{
+    background: url(hung.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 5px 1em;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #b8b8b8,-2px -2px 5px #000;
+    transition: 0.2s;
+}
+
+.card-2{
+    background: url(tai.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 5px 1em;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #b8b8b8,-2px -2px 5px #000;
+    transition: 0.2s;
+}
+.card-3{
+    background: url(anh.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 5px 1em;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #b8b8b8,-2px -2px 5px #000;
+    transition: 0.2s;
+}
+.card-4{
+    background: url(vy.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 5px 1em;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #b8b8b8,-2px -2px 5px #000;
+    transition: 0.2s;
+}
+.card-5{
+    background: url(thao.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 5px 1em;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #b8b8b8,-2px -2px 5px #000;
+    transition: 0.2s;
+}
+.card-6{
+    background: url(duyen.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 5px 1em;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #b8b8b8,-2px -2px 5px #000;
+    transition: 0.2s;
+}
+.card-1:hover{
+    transform: scale(1.02);
+}
+
+.card-2:hover{
+    transform: scale(1.02);
+}
+.card-3:hover{
+    transform: scale(1.02);
+}
+.card-4:hover{
+    transform: scale(1.02);
+}
+.card-5:hover{
+    transform: scale(1.02);
+}
+.card-6:hover{
+    transform: scale(1.02);
+}
+.solo p{
+    position: relative;
+    margin-top: 10%;
+}
+
+.solo h2{
+    color: #fcf14f;
+    font-size: 25px;
+}
+.solo .content-1{
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    color: #fcfcfc;
+    background: linear-gradient(to right,#1b1c25,rgb(5, 34, 65));
+    position: absolute;
+    transform: translateX(-120%) translateY(-10px);
+    padding: 20px;
+    border-radius: 40px 20px 10px 20px;
+    box-shadow: 5px 5px 10px #b8b8b8,-5px -5px 10px #000 ;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.solo .content-2{
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    color: #fcfcfc;
+    background: linear-gradient(to right,#1b1c25,rgb(5, 34, 65));
+    position: absolute;
+    transform: translateX(-160%) translateY(-10px);
+    padding: 20px;
+    border-radius: 40px 20px 10px 20px;
+    box-shadow: 5px 5px 10px #b8b8b8,-5px -5px 10px #000 ;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}.solo .content-3{
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    color: #fcfcfc;
+    background: linear-gradient(to right,#1b1c25,rgb(5, 34, 65));
+    position: absolute;
+    transform: translateX(-198%) translateY(-9px);
+    padding: 20px;
+    border-radius: 40px 20px 10px 20px;
+    box-shadow: 5px 5px 10px #b8b8b8,-5px -5px 10px #000 ;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}.solo .content-4{
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    color: #fcfcfc;
+    background: linear-gradient(to right,#1b1c25,rgb(5, 34, 65));
+    position: absolute;
+    transform: translateX(-120%) translateY(-192px);
+    padding: 20px;
+    border-radius: 40px 20px 10px 20px;
+    box-shadow: 5px 5px 10px #b8b8b8,-5px -5px 10px #000 ;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}.solo .content-5{
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    color: #fcfcfc;
+    background: linear-gradient(to right,#1b1c25,rgb(5, 34, 65));
+    position: absolute;
+    transform: translateX(-160%) translateY(-192px);
+    padding: 20px;
+    border-radius: 40px 20px 10px 20px;
+    box-shadow: 5px 5px 10px #b8b8b8,-5px -5px 10px #000 ;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}.solo .content-6{
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    color: #fcfcfc;
+    background: linear-gradient(to right,#1b1c25,rgb(5, 34, 65));
+    position: absolute;
+    transform: translateX(-198%) translateY(-192px);
+    padding: 20px;
+    border-radius: 40px 20px 10px 20px;
+    box-shadow: 5px 5px 10px #b8b8b8,-5px -5px 10px #000 ;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.teacher p{
+    position: relative;
+    margin-top: 10%;
+}
+
+.teacher h2{
+    color: #fcf14f;
+    font-size: 25px;
+}
+.teacher .content-7{
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    color: #fcfcfc;
+    background: linear-gradient(to right,#1b1c25,rgb(5, 34, 65));
+    position: absolute;
+    transform: translateX(-198%) translateY(-192px);
+    padding: 20px;
+    border-radius: 40px 20px 10px 20px;
+    box-shadow: 5px 5px 10px #b8b8b8,-5px -5px 10px #000 ;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.solo.active .content-1{
+    visibility:  visible;
+    opacity: 1;
+}
+.solo.active .content-2{
+    visibility:  visible;
+    opacity: 1;
+}.solo.active .content-3{
+    visibility:  visible;
+    opacity: 1;
+}.solo.active .content-4{
+    visibility:  visible;
+    opacity: 1;
+}.solo.active .content-5{
+    visibility:  visible;
+    opacity: 1;
+}.solo.active .content-6{
+    visibility:  visible;
+    opacity: 1;
+}
+.solo.active .content-7{
+    visibility:  visible;
+    opacity: 1;
+}
+.media{
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+.media i{
+    font-size: 30px;
+    padding: 10px;
+    margin: 5px;
+    color:#fff;
+    border-radius: 50px;
+    border: 1px solid #fff;
+}
+.media i:hover{
+    background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7));
+    color: #000;
+}
+.footer {
+  background-color: rgb(14, 39, 90);
+  position: fixed;
+  width: 100%;
+  padding: 0.1px;
+  text-align: right;
+  color: white;
+  margin-top: 535px;
+}
+.footer p {
+  margin-right: 10px;
+}
+.box {
+    float: left;
+    width: 80;
+    height: 50px;
+}
+.box img{
+    margin-left: 15px;
+    margin-top: 12px;
+    z-index: 99;
+    height: 100px;
+    width: 100px;
+}
