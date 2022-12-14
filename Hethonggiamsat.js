@@ -432,10 +432,10 @@ function selectMode() {
       namemode = name;
       alert("Select mode is successful!");
       // console.log("name truoc main " + namemode);
-      main();
     }
   }, 1000);
   stop = 1;
+  main();
 }
 
 // main--------------------------------------------------------------------
