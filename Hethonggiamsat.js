@@ -457,5 +457,5 @@ function main() {
     intervalMain = setInterval(function () {
       trafficLightControl(R1, R2, Y1, Y2, G1, G2);
     }, sumTimeOfMode * 1000);
-  }, 3000);
+  }, 2000);
 }
