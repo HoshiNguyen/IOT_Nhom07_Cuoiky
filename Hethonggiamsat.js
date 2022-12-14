@@ -427,15 +427,17 @@ function selectMode() {
   const mytimeout = setTimeout(function () {
     if (check == 0) {
       alert("Name not Found!");
+      main();
+      return;
     } else {
       check = 0;
       namemode = name;
       alert("Select mode is successful!");
+      main();
       // console.log("name truoc main " + namemode);
     }
   }, 1000);
   stop = 1;
-  main();
 }
 
 // main--------------------------------------------------------------------
